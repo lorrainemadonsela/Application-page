@@ -1,0 +1,264 @@
+.Page{
+    border: 1px solid black;
+    margin: 300px;
+}
+.intro{
+    display: flex;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about{
+    display: flex;
+    padding-left: 300px;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.underline{
+    color: maroon;
+    font-weight: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    padding-left: 200px;
+}
+.form button{
+    background-color: rgb(245, 148, 164);
+    color: white;
+    border-color: rgb(245, 148, 164);
+    border-radius: 10px;
+}
+.platforms{
+    display: flex;
+    gap: 90px;
+    padding-left: 500px;
+    background-color: rgb(223, 242, 253);
+    border-radius: 5% 15% 25% 35%;
+    height: 700px;
+    align-items: center;
+}
+.fa-apple{
+    color: white;
+}
+.platform-content button{
+    background-color: rgb(8, 8, 92);
+    color: white;
+    border-radius: 10px;
+}
+.button playstore{
+    color: black;
+}
+.platform-content h1{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.growth{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sites{
+    text-align: center;
+    gap: 20px;
+}
+.about-product{
+    background-color: rgb(223, 242, 253); 
+    margin-top: 90px;
+    text-align: center;
+}
+.offers{
+    display: flex;
+    gap: 20px;
+    padding-left: 250px;
+}
+.interface{
+    background-color: beige;
+    border-radius: 10%;
+    text-align: center;
+    border: 1px solid rgb(250, 140, 159);
+}
+.transfers{
+    background-color: beige;
+    border-radius: 10%;
+    text-align: center;
+}
+.support{
+    background-color: beige;
+    border-radius: 10%;
+    text-align: center;
+}
+.fa-star{
+    border: 1px solid wheat;
+    background-color: wheat;
+    border-radius: 50%;
+}
+.fa-leaf{
+    border: 1px solid rgb(223, 242, 253);
+    background-color: rgb(223, 242, 253);
+    border-radius: 50%;
+}
+.progress{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 100px;
+    gap: 100px;
+}
+.global{
+    align-items: center;
+    text-align: center;
+    font-weight: 1200px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 30px;
+}
+.mobile-app{
+    display: flex;
+    background-color: rgb(250, 232, 235);
+    padding-left: 200px;
+    gap: 100px;
+}
+.mobile-info{
+    align-content: center;
+}
+.mobile-app button{
+    background-color: rgb(8, 8, 92);
+    color: white;
+    border-radius: 50px;
+
+}
+.clients{
+    text-align: center;
+    height: 200px;
+    font-family: Calibri;
+    margin-top: 20%;
+}
+.business-man{
+    display: flex;
+    padding-left: 220px;
+    gap: 100px;
+}
+.left{
+    border: 1px solid rgb(211, 111, 211);
+    border-radius: 10px;
+}
+.downloads{
+    display: flex;
+    padding-left: 300px;
+    gap: 100px;
+    margin-top: 70px;
+}
+.downloads button{
+    color: white;
+    background-color: rgb(8, 8, 92);
+    border-radius: 50px;
+}
+.footer{
+    display: flex;
+    gap: 8%;
+    background-color: rgb(42, 42, 155);
+    color: white;
+    padding-left: 50px;
+}
+.policies{
+    display: flex;
+    gap: 30%;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding-left: 50px;
+}
+
+
+
+
+ 
+@media(max-width: 700px){
+    .Page{
+        width: 100%;
+        margin: 0px;
+        background-color: rgb(205, 247, 247);
+    }
+    .intro{
+        display: flex;
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about{
+        display: flex;
+        padding-left: 0px;
+        gap: 10px;
+    }
+    .form{
+        display: flex;
+        height: 40px;
+        align-items: center;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .form button{
+        background-color: rgb(245, 148, 164);
+        color: white;
+        border-color: rgb(245, 148, 164);
+        border-radius: 10px;
+    }
+    .platforms{
+        display: flex;
+        gap: 90px;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .sites{
+        text-align: center;
+        gap: 20px;
+        width: fit-content;
+    }
+    .offers{
+        display: flex;
+        gap: 3px;
+        padding-left: 0px;
+    }
+    .progress{
+        display: flex;
+        margin-top: 100px;
+        padding-left: 0px;
+        gap: 10px;
+    }
+    .progress content-right{
+        width: 10px;
+    }
+    .global{
+        align-items: center;
+        text-align: center;
+        font-weight: 1200px;
+        font-family: 'Franklin Gothic Medium';
+        margin-top: 30px;
+    }
+    .mobile-app{
+        padding-left: 0px;
+        gap: 10px;
+    }
+    .business-man{
+        display: flex;
+        padding-left: 0px;
+        gap: 100px;
+    }
+    .downloads{
+        padding-left: 0px;
+        gap: 0px;
+    }
+    .footer{
+        gap: 0%;
+        padding-left: 0px;
+    }
+    .policies{
+        gap: 10%;
+        padding-left: 0px;
+    }
+}
